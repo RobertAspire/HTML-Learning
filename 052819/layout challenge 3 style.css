@@ -1,0 +1,69 @@
+body {
+    font-family: arial;
+    margin: 0;
+    background-color: rgb(253, 9, 253);
+}
+#wrap {
+    width: 100%;
+}
+#nav {
+    float: left;
+    margin: 0;
+    padding: 25px 5px 15px 50px;
+    background-color: crimson;
+}
+.navbar {
+    display: inline-block;
+    list-style-type: circle;
+    height: 740px;
+    width: 250px;
+}
+#content {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: fuchsia;
+}
+.intro {
+    margin: 0;
+    padding: 0 0 0 20px;
+}
+.sonnet {
+    list-style-type: none;
+    text-align: center;
+    font-size: 24px;
+    font-family: verdana;
+}
+b {
+    font-family: arial;
+    font-size: 40px;
+}
+.copyright {
+    background-color: rgb(253, 9, 253);
+    font-size: 16px;
+    font-family: arial;
+}
+.navbar a:link {
+    color: black;
+    text-decoration: none;
+}
+.navbar a:visited {
+    color: black;
+    text-decoration: none;
+}
+.navbar a:hover {
+    color: black;
+    text-decoration: underline;
+}
+.copyright a:link {
+    color: maroon;
+    text-decoration: none;
+}
+.copyright a:visited {
+    color: maroon;
+    text-decoration: none;
+}
+.copyright a:hover {
+    color: maroon;
+    text-decoration: underline;
+}
