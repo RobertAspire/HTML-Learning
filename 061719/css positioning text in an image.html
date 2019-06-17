@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.container {
+  position: relative;
+}
+
+.center {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+}
+
+.bottomright {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  font-size: 18px;
+}
+
+.bottomleft {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  font-size: 18px;
+}
+
+.topright {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  font-size: 18px;
+}
+
+.topleft {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  font-size: 18px;
+}
+
+img { 
+  width: 100%;
+  height: auto;
+  opacity: 0.4;
+}
+</style>
+</head>
+<body>
+
+<h2>Image Text</h2>
+<p>Center text in image:</p>
+
+<div class="container">
+  <img src="https://2m9wu34e3my91ybvq416sfd1-wpengine.netdna-ssl.com/wp-content/uploads/2015/10/gerbil.jpg" alt="Cinque Terre" width="1000" height="300">
+  <div class="center">Centered</div>
+</div>
+
+<div class="container">
+  <img src="https://2m9wu34e3my91ybvq416sfd1-wpengine.netdna-ssl.com/wp-content/uploads/2015/10/gerbil.jpg" alt="Cinque Terre" width="1000" height="300">
+  <div class="bottomright">Bottom Right</div>
+</div>
+
+<div class="container">
+  <img src="https://2m9wu34e3my91ybvq416sfd1-wpengine.netdna-ssl.com/wp-content/uploads/2015/10/gerbil.jpg" alt="Cinque Terre" width="1000" height="300">
+  <div class="bottomleft">Bottom Left</div>
+</div>
+
+<div class="container">
+  <img src="https://2m9wu34e3my91ybvq416sfd1-wpengine.netdna-ssl.com/wp-content/uploads/2015/10/gerbil.jpg" alt="Cinque Terre" width="1000" height="300">
+  <div class="topright">Top Right</div>
+</div>
+
+<div class="container">
+  <img src="https://2m9wu34e3my91ybvq416sfd1-wpengine.netdna-ssl.com/wp-content/uploads/2015/10/gerbil.jpg" alt="Cinque Terre" width="1000" height="300">
+  <div class="topleft">Top Left</div>
+</div>
+
+</body>
+</html>
