@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.desc {
+  padding: 15px;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+<h2>Dropdown Image</h2>
+<p>Move the mouse over the image below to open the dropdown content.</p>
+
+<div class="dropdown">
+  <img src="https://usercontent2.hubstatic.com/13361725_f520.jpg" alt="Cinque Terre" width="130" height="104">
+  <div class="dropdown-content">
+  <img src="https://usercontent2.hubstatic.com/13361725_f520.jpg" alt="Cinque Terre" width="260" height="208">
+  <div class="desc">Cute little gerbil!</div>
+  </div>
+</div>
+
+</body>
+</html>
